@@ -11,7 +11,10 @@ public class HomeController {
 	@RequestMapping("/check")
 	public String check()
 	{
+	
 		
 		return "App Working Fine..!";
 	}
+	
+	
 }
